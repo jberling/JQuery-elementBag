@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="se">
+<head>
+  <title>bara ett test</title>
+</head>
+<body>
+
+  <div id="page">
+    <p>The time is <span id="timer"></span></p>
+    <table>
+      <tr><th>X</th><th>Y</th></tr>
+      <tr>
+        <td><span id="x-value">0</span></td>
+        <td><span id="y-value">0</span></td>
+      </tr>
+    </table>
+  </div>
+
+  <script src="../common/_attachments/scripts/libs/jquery-1.4.4.js"></script>
+  <script src="../common/_attachments/scripts/libs/rx.js"></script>
+  <script src="../common/_attachments/scripts/libs/rx.jQuery.js"></script>
+
+  <script>
+
+    $(document).ready(function(){
+
+      var x = $("#x-value"),
+          y = $("#y-value");
+
+      x.text(mouseLeftB(document));
+      y.text(mouseTopB(document));
+
+
+    });
+
+    
+
+  </script>
+
+</body>
+</html>
