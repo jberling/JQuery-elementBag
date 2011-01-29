@@ -1,4 +1,4 @@
-# The bag of joy #
+# Cache is king #
 
 Suddenly you realize the jQuery selectors are handy but not magical. The queried result is not cached, and
 every time you write i.e. $("#my-element"), you will search for an element with the
